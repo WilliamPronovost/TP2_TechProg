@@ -4,6 +4,7 @@
 #include <string.h>
 #include <assert.h>
 #include "utils.h"
+#include "TP2.h"
 
 #define HEAP_SIZE 2048 * 2048 * 4
 static uint8_t* heap = NULL;
@@ -18,5 +19,6 @@ void* allocate(size_t size) {
 int main(int argc, char** argv) {
 	heap = (uint8_t*)malloc(HEAP_SIZE);
 	assert(heap != NULL);
+	BFS();
 	
 }
