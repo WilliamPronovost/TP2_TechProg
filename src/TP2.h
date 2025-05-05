@@ -22,3 +22,4 @@ int BFS();
 Node* FindBeginning(unsigned char* img);
 Node* FindEnd(unsigned char* img);
 int A_Star(Node* stack, Node* current);
+size_t coord_to_linear(int x, int y, int width, int channels);

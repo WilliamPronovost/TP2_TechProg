@@ -20,5 +20,4 @@ int main(int argc, char** argv) {
 	heap = (uint8_t*)malloc(HEAP_SIZE);
 	assert(heap != NULL);
 	BFS();
-	
 }
